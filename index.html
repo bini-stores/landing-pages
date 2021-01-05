@@ -26,7 +26,15 @@
 
 <body>
 
-
+    <script>
+        function onSubmit() {
+            var sel = document.getElementById("inlineFormInput"); 
+            // console.log("sel", sel);  
+            // console.log("sel.value", sel.value || sel.placeholder);
+            var value = sel.value || sel.placeholder;
+            window.location = 'https://wa.me/4915226103111?text=' + value;
+        }
+    </script>
 
     <header class="masthead text-center text-white">
         <div class="masthead-content">
@@ -44,7 +52,13 @@
                                     <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Chips, Schokolade, Bier">
                                 </div>
                                 <div class="col-auto">
-                                    <button type="submit" class="btn btn-primary mb-2">Jetzt whatsappen 💬</button>
+                                    <button 
+                                        type='button'
+                                        class="btn btn-primary mb-2"
+                                        onclick="onSubmit()"
+                                    >
+                                        Jetzt whatsappen 💬
+                                    </button>
                                 </div>
                             </div>
                         </form>
