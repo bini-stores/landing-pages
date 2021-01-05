@@ -23,6 +23,12 @@ h6 {
     color:rgb(255, 72, 0)
 }
 
+.item{
+    color: #ffffff;
+    background-color: tomato;
+    border-radius: 3px;
+}
+
 .btn-xl {
     text-transform: uppercase;
     padding: 1.5rem 3rem;
