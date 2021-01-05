@@ -15,7 +15,12 @@ h4,
 h5,
 h6 {
     font-family: Catamaran;
-    font-weight: 800!important
+    font-weight: 800!important;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.category{
+    color:rgb(255, 72, 0)
 }
 
 .btn-xl {
@@ -86,7 +91,7 @@ header.masthead {
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
-    background-image: url('img/hero.jpg');
+    background-image: url('../img/hero.jpg');
 }
 
 header.masthead-grey {
