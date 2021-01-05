@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        <script src="https://js.stripe.com/v3/"></script>
+        <script>
+            var stripe = Stripe('pk_live_51H0bJOCPFUxZ3AcVRcWHE1tLFqh4pPVZ0OcM6z6DSg6bfPa1yt42lnM01Vtzvr7UBuPKVdmQaLrLF5NWhhACl1lw00u1MQHCKD');
+
+            stripe.redirectToCheckout({
+                sessionId: new URLSearchParams(window.location.search).get('token'),
+            });
+        </script>
+    </body>
+</html>
