@@ -104,19 +104,6 @@ header.masthead {
     background-image: url('../img/hero_orange-small.png');
 }
 
-header.masthead-grey {
-    position: relative;
-    overflow: hidden;
-    padding-top: calc(7rem + 72px);
-    padding-bottom: 7rem;
-    /*background: linear-gradient(0deg, #ff6a00 0, #eeed09 100%);*/
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
-    background-image: url('https://uploads-ssl.webflow.com/5ff2613eb1ab6d52eb36341b/5ff269e8f36955eba231395c_orange-blur.png');
-}
-
 header.masthead .masthead-content {
     z-index: 1;
     position: relative
