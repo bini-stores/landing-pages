@@ -68,6 +68,20 @@ header.masthead {
     padding-top: calc(7rem + 72px);
     padding-bottom: 7rem;
     /*background: linear-gradient(0deg, #ff6a00 0, #eeed09 100%);*/
+    filter: grayscale(10%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color:rgba(95, 83, 89, 0.5);
+}
+
+header.masthead-grey {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    /*background: linear-gradient(0deg, #ff6a00 0, #eeed09 100%);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
