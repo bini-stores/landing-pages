@@ -15,9 +15,11 @@
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet">
 
-    <link href="https://uploads-ssl.webflow.com/5e90dc264660cb1f3bd56463/5fe0d19db1df228757136c91_bini32x32.png" rel="shortcut icon" type="image/x-icon">
+    <link href="https://uploads-ssl.webflow.com/5e90dc264660cb1f3bd56463/5fe0d19db1df228757136c91_bini32x32.png"
+        rel="shortcut icon" type="image/x-icon">
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
@@ -28,7 +30,7 @@
 
     <script>
         function onSubmit() {
-            var sel = document.getElementById("inlineFormInput"); 
+            var sel = document.getElementById("inlineFormInput");
             // console.log("sel", sel);  
             // console.log("sel.value", sel.value || sel.placeholder);
             var value = sel.value || sel.placeholder;
@@ -39,30 +41,34 @@
     <header class="masthead text-center text-white">
         <div class="masthead-content">
             <div class="container">
-                <img id="hero-img" src="https://uploads-ssl.webflow.com/5ff2613eb1ab6d52eb36341b/5ff26952e29e0e8ed7607ddc_bini4.png">
-                <h1 class="masthead-heading mb-0">Bestelle deine Lebensmittel über WhatsApp</h1>
-                <h2 class="masthead-subheading mb-0">Keine Anmeldung - Lieferung in 15min</h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <img id="hero-img"
+                            src="https://uploads-ssl.webflow.com/5ff2613eb1ab6d52eb36341b/5ff26952e29e0e8ed7607ddc_bini4.png">
+                        <h1 class="masthead-heading mb-0">Bestelle deine Lebensmittel über WhatsApp</h1>
+                        <h2 class="masthead-subheading mb-0">Keine Anmeldung - Lieferung in 15min</h2>
 
 
-                <div class="row" id="header-form">
-                    <div class="col-6 offset-4">
-                        <form>
-                            <div class="form-row align-items-center">
-                                <div class="col-auto">
-                                    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Chips, Schokolade, Bier">
-                                </div>
-                                <div class="col-auto">
-                                    <button 
-                                        type='button'
-                                        class="btn btn-primary mb-2"
-                                        onclick="onSubmit()"
-                                    >
-                                        Jetzt whatsappen 💬
-                                    </button>
-                                </div>
+                        <div class="row justify-content-center" id="header-form">
+                            <div class="col-auto">
+                                <form>
+                                    <div class="form-row align-items-center row justify-content-center">
+                                        <div class="col-auto">
+                                            <input type="text" class="form-control mb-2" id="inlineFormInput"
+                                                placeholder="Chips, Schokolade, Bier">
+                                        </div>
+                                        <div class="col-auto">
+                                            <button type='button' class="btn btn-primary mb-2" onclick="onSubmit()">
+                                                Jetzt whatsappen 💬
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                        </form>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
@@ -85,11 +91,11 @@
                     <div class="p-5">
                         <h2 class="display-4 category">Getränke, blitzschnell</h2>
                         <p>Unser Sortiment umfasst
-                            <span class="item">Wasser</span>, 
-                            <span class="item">Säfte</span>, 
-                            <span class="item">Softdrinks</span>, 
-                            <span class="item">Weine</span>, 
-                            <span class="item">Biere</span>, 
+                            <span class="item">Wasser</span>,
+                            <span class="item">Säfte</span>,
+                            <span class="item">Softdrinks</span>,
+                            <span class="item">Weine</span>,
+                            <span class="item">Biere</span>,
                             <span class="item">Milch & Equivalents</span>
                         </p>
                     </div>
@@ -109,11 +115,11 @@
                 <div class="col-lg-6">
                     <div class="p-5">
                         <h2 class="display-4 category">Für Genuss&shy;menschen.</h2>
-                        <p>Im Spirituosen-Segment bieten wir  
-                            <span class="item">Wodka</span>, 
-                            <span class="item">Gin</span>, 
-                            <span class="item">Rum</span>, 
-                            <span class="item">Whiskey</span>, 
+                        <p>Im Spirituosen-Segment bieten wir
+                            <span class="item">Wodka</span>,
+                            <span class="item">Gin</span>,
+                            <span class="item">Rum</span>,
+                            <span class="item">Whiskey</span>,
                             <span class="item">Liköre</span>
                         </p>
                     </div>
@@ -133,9 +139,9 @@
                 <div class="col-lg-6 order-lg-1">
                     <div class="p-5">
                         <h2 class="display-4 category">Für Zwischen&shy;durch...</h2>
-                        <p>Ansonsten bieten wir 
-                            <span class="item">Zigaretten</span>, 
-                            <span class="item">Snacks</span>, 
+                        <p>Ansonsten bieten wir
+                            <span class="item">Zigaretten</span>,
+                            <span class="item">Snacks</span>,
                             <span class="item">Schokolade</span> und vieles mehr! Frage uns gerne :)
                         </p>
                     </div>
