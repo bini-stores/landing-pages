@@ -33,6 +33,11 @@ h6 {
     padding-bottom: 1px;
 }
 
+.cta-form{
+    height: 70px;
+    font-size: 1.5rem;
+}
+
 .btn-xl {
     text-transform: uppercase;
     padding: 1.5rem 3rem;
